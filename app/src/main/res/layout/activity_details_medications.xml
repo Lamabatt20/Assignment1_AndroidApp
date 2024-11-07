@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCECEF"
+    android:orientation="vertical"
+    tools:context=".DetailsMedications">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="start"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="12dp"
+        android:src="@drawable/logo" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:id="@+id/medication"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/medicationname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="#344794"
+        android:layout_marginTop="6dp"
+        />
+
+    <TextView
+        android:id="@+id/medicationd"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/timeofday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"/>
+    <TextView
+        android:id="@+id/ftext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="15dp"/>
+
+    <Switch
+        android:id="@+id/medication_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medication Taken"
+        android:textColor="#344794"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp" />
+    <Button
+        android:id="@+id/addm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="#344794"
+        android:padding="8dp"
+        android:text="+Survey"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+
+</LinearLayout>
